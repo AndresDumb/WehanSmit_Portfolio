@@ -17,6 +17,17 @@ header{
 header h2{
     font-family: "Electrolize", sans-serif;
     margin:20px 0px;
+    
+}
+@keyframes static-anim{
+    0%{
+        background-size: 100% 100%;
+        background-position:0, 0;
+    }
+    100%{
+        background-size: 200% 200%;
+        background-position:100%, 100%;
+    }
 }
 nav{
     text-align: center;
@@ -30,6 +41,14 @@ nav a{
 }
 a:hover{
     font-weight: bold;
+    color: transparent;
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    background-image: repeating-radial-gradient(circle at center, black 0.0004px, white 0.00095px);
+    animation: static-anim 1s steps(50,end) infinite both;
+    background-size: 100% 100%;
 }
 .content{
     margin:20px 30px;
@@ -43,9 +62,17 @@ a:hover{
     margin-bottom: 50px;
     font-family:"Sixtyfour", sans-serif;
     font-variation-settings:
-    "BLED" 45,
-    "SCAN" -40;
+    "BLED" 75,
+    "SCAN" -50;
         margin:20px 30px;
+        color: transparent;
+
+        -webkit-background-clip: text;
+        background-clip: text;
+
+        background-image: repeating-radial-gradient(circle at center, black 0.0004px, white 0.00095px);
+        animation: static-anim 1s steps(50,end) infinite both;
+        background-size: 100% 100%;
     
 }
 .content h3{
