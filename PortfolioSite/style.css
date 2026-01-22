@@ -1,0 +1,62 @@
+﻿body{
+    background-color: black;
+    color: white;
+    font-family: "Electrolize", sans-serif;
+    scrollbar-color: white black;
+    width:100%
+}
+a{
+    color: white;
+}
+header{
+    margin:20px 30px;
+    padding:0px 20px;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+header h2{
+    font-family: "Electrolize", sans-serif;
+    margin:20px 0px;
+}
+nav{
+    text-align: center;
+    margin: auto 30px;
+    border-bottom: 2px solid white;
+    
+}
+nav a{
+    margin: 0px 15px;
+    font-size: 25px;
+}
+a:hover{
+    font-weight: bold;
+}
+.content{
+    margin:20px 30px;
+    border-bottom: 2px solid white;
+    padding:0px 20px;
+    overflow: scroll;
+    max-height : 400px;
+    
+}
+    h2{
+    margin-bottom: 50px;
+    font-family:"Sixtyfour", sans-serif;
+    font-variation-settings:
+    "BLED" 45,
+    "SCAN" -40;
+        margin:20px 30px;
+    
+}
+.content h3{
+    font-weight: bold;
+}
+.content p{
+    padding: 0px;
+    margin: 10px;
+}
+
+
+.Desc{
+    text-align: right;
+}
