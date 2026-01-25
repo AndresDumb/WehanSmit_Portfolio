@@ -1,0 +1,89 @@
+﻿body{
+    background-color: black;
+    color: white;
+    font-family: "Electrolize", sans-serif;
+    scrollbar-color: white black;
+    width:100%
+}
+a{
+    color: white;
+}
+header{
+    margin:20px 30px;
+    padding:0px 20px;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+header h2{
+    font-family: "Electrolize", sans-serif;
+    margin:20px 0px;
+    
+}
+@keyframes static-anim{
+    0%{
+        background-size: 100% 100%;
+        background-position:0, 0;
+    }
+    100%{
+        background-size: 200% 200%;
+        background-position:100%, 100%;
+    }
+}
+nav{
+    text-align: center;
+    margin: auto 30px;
+    border-bottom: 2px solid white;
+    
+}
+nav a{
+    margin: 0px 15px;
+    font-size: 25px;
+}
+a:hover{
+    font-weight: bold;
+    color: transparent;
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    background-image: repeating-radial-gradient(circle at center, black 0.0004px, white 0.00095px);
+    animation: static-anim 1s steps(50,end) infinite both;
+    background-size: 100% 100%;
+}
+.content{
+    margin:20px 30px;
+    border-bottom: 2px solid white;
+    padding:0px 20px;
+    overflow: scroll;
+    max-height : 400px;
+    
+}
+    h2{
+    margin-bottom: 50px;
+    font-family:"Sixtyfour", sans-serif;
+    font-variation-settings:
+    "BLED" 75,
+    "SCAN" -50;
+        margin:20px 30px;
+        color: transparent;
+
+        -webkit-background-clip: text;
+        background-clip: text;
+
+        background-image: repeating-radial-gradient(circle at center, black 0.0004px, white 0.00095px);
+        animation: static-anim 1s steps(50,end) infinite both;
+        background-size: 100% 100%;
+    
+}
+.content h3{
+    font-weight: bold;
+}
+.content p{
+    padding: 0px;
+    margin: 10px;
+}
+
+
+.Desc{
+    text-align: right;
+}
