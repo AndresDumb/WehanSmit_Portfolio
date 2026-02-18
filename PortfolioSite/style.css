@@ -166,6 +166,19 @@ h2 {
     transform: translateY(-5px);
 }
 
+.project-link {
+    text-decoration: none;
+    display: block;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+}
+
+.project-link:hover {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
 #Projects .project h3 {
     margin-top: 0;
 }
