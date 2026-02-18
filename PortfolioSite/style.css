@@ -13,7 +13,6 @@
 a {
     color: #fff;
     text-decoration: none;
-    transition: all 0.2s ease-in-out;
 }
 
 header {
@@ -59,11 +58,9 @@ nav a, .dropbtn {
     text-transform: uppercase;
     letter-spacing: 1px;
     cursor: pointer;
-    transition: all 0.2s ease-in-out;
 }
 
 nav a:hover, .dropbtn:hover, .dropdown.show .dropbtn {
-    font-weight: bold;
     text-decoration: underline;
 }
 
@@ -92,13 +89,10 @@ nav a:hover, .dropbtn:hover, .dropdown.show .dropbtn {
     text-decoration: none;
     display: block;
     font-size: 0.9rem;
-    transition: all 0.2s ease-in-out;
 }
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-    background-color: #fff;
-    color: #000;
 }
 
 /* Show the dropdown menu when the .show class is added */
@@ -146,8 +140,6 @@ h2 {
 }
 
 .content a:hover {
-    background-color: #fff;
-    color: #000;
 }
 
 #Projects .content {
@@ -159,11 +151,9 @@ h2 {
 #Projects .project {
     border: 1px solid #fff;
     padding: 20px;
-    transition: transform 0.3s ease;
 }
 
 #Projects .project:hover {
-    transform: translateY(-5px);
 }
 
 .project-link {
